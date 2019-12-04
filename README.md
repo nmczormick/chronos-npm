@@ -2,7 +2,7 @@
 Chronos Microservice Debugger consists of an npm package with an optional Electron front end to visualize information collected through use of npm package.
 
 ## Install
-```javascript
+```bash
 npm install chronos-microservice-debugger
 ```
 
@@ -14,10 +14,10 @@ There are two main aspects to Chronos-Microservice-Debugger
 To use the npm package, there are three required parameters and an optional fourth parameter. You can enter the items as individual strings or as an array containing the three required parameters and one optional parameter.
 
 The parameters are:
-1. microserviceName: What do you want to name the current microservice
-2. databaseType: We currently support PostgreSQL and Mongo. Enter "mongo" or "sql"
-3. databaseURL: Where would you like to store your information? Enter the URL to your database
-4. queryFrequency: How often do you want microHealth to monitor the health of your database? It defaults to every second, but you can choose:
+1. `microserviceName`: What do you want to name the current microservice
+2. `databaseType`: We currently support PostgreSQL and Mongo. Enter "mongo" or "sql"
+3. `databaseURL`: Where would you like to store your information? Enter the URL to your database
+4. `queryFrequency`: How often do you want microHealth to monitor the health of your database? It defaults to every second, but you can choose:
   * "s" : The default, monitors every second
   * "m" : Monitors every minute
   * "h" : Monitors every hour
@@ -78,7 +78,7 @@ Chronos uses a user-owned and provided database to ensure that your private data
 
 ## Links
 1. Chronos Website (Coming Soon): http://chronos.ninja
-2. Gitub Page: https://github.com/oslabs-beta/Chronos
+2. GitHub Page: https://github.com/oslabs-beta/Chronos
 
 ## Contact Us
 For questions, requests, or more information, please contact us at teammicronos@gmail.com
